@@ -22,12 +22,113 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  border:solid black;
 }
-
+body{
+  background-color: pink;
+}
 .App-link {
   color: #61dafb;
 }
+.btndsns{
+  background-color:rgb(199, 29, 29);
+  color:white;
+  border:none;
+}
+.webbnrdsns{
+margin-top:-14px;
+}
+.crtdsn{
+  width:250px;
+  height:405px;
+  padding:6px;
+text-align:center;
+}
+.hmbtnsdsnss {
+  background:none;
+  border: solid 3px white;
+  border-radius:8px;
+  display:inline block;
+  color:white;
+  cursor:pointer;
+  padding:12px;;
+  font-weight: bold;
+  margin-top:60px;
 
+}
+.hmbtnsdsnss:hover{
+  background-color:rgb(241, 191, 191);
+}
+.mdltxtdsns{
+  margin-top:-450px;
+  color:rgb(117, 44, 44);
+ 
+}
+.middlsddsns{
+  margin-top:300px;
+}
+.abtdsns{
+  border: solid 4px maroon;
+}
+.srchbrdsns{
+  margin-top:12px;
+
+}
+.crtmdldsnss{
+  width:350px;
+  height:400px;
+  margin-left:40px;
+}
+.btnmdldsnss{
+  background-color:green;
+  color:white;
+  border: none;
+}
+.sdbrdsns ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: rgb(214, 77, 77);
+  margin-top:-170px;
+}
+.sdbrdsns li  {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color:white;
+
+}
+.sdbrdsns a{
+  text-decoration:none;
+}
+
+
+.sdbrdsns li a:hover {
+  background-color: rgb(184, 36, 36);
+  color: white;
+}
+
+.navbardsns ul{
+  background-color: rgb(214, 77, 77);
+  text-align:left;
+  overflow: hidden;
+  list-style-type: none;
+
+}
+.navbardsns li{
+float:left;
+ 
+}
+.navbardsns li{
+  display:block;
+  color:white;
+ text-decoration: none;
+ padding: 14px 16px;
+}
+li:hover{
+  background-color: rgb(184, 36, 36);
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
